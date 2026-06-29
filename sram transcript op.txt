@@ -1,0 +1,223 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd {C:\Users\SAI NIKHIL\OneDrive\Desktop\vlsi\PROJECT\sv project\SRAM MINI PROJECT}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:08:41 on Mar 13,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module ram_dut
+# -- Compiling interface ram_if
+# -- Compiling package top_sv_unit
+# -- Compiling program testbench
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:08:41 on Mar 13,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 18:08:41 on Mar 13,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.ram_if(fast)
+# Loading work.ram_dut(fast)
+# Loading work.testbench(fast)
+# Loading work.ram_if(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: SAI NIKHIL  Hostname: SRIJASAI  ProcessID: 14760
+#           Attempting to use alternate WLF file "./wlft5k7mws".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5k7mws
+# [gen] random value generated
+# [gen]1  wdata=196 addr=6 time=0
+# [gen] random value generated
+# [gen]2  wdata=200 addr=7 time=0
+# [gen] random value generated
+# [gen]3  wdata=187 addr=9 time=0
+# [gen] random value generated
+# [gen]4  wdata=49 addr=2 time=0
+# [gen] random value generated
+# [gen]5  wdata=107 addr=3 time=0
+# [gen] random value generated
+# [gen]6  wdata=153 addr=10 time=0
+# [gen] random value generated
+# [gen]7  wdata=108 addr=4 time=0
+# [gen] random value generated
+# [gen]8  wdata=122 addr=5 time=0
+# [gen] random value generated
+# [gen]9  wdata=171 addr=8 time=0
+# [gen] random value generated
+# [gen]10  wdata=188 addr=12 time=0
+# reset applied to dut
+# reset completed
+# assertion fail
+# [IMON] detected1 wdata=196 addr=6 time=15
+# [cov] coverage value=100.00
+# assertion fail
+# assertion fail
+# [DRI]1  wdata=196 addr=6 time=45
+# reset applied to dut
+# assertion pass
+# [OMON] detected1 rdata=196 at time=45
+# [SCB_info] pkt_c=1 outputs matched  exp= 196 recv=196   time=45
+# reset completed
+# assertion pass
+# [IMON] detected2 wdata=200 addr=7 time=65
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]2  wdata=200 addr=7 time=95
+# reset applied to dut
+# assertion pass
+# [OMON] detected2 rdata=200 at time=95
+# [SCB_info] pkt_c=2 outputs matched  exp= 200 recv=200   time=95
+# reset completed
+# assertion pass
+# [IMON] detected3 wdata=187 addr=9 time=115
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]3  wdata=187 addr=9 time=145
+# reset applied to dut
+# assertion pass
+# [OMON] detected3 rdata=187 at time=145
+# [SCB_info] pkt_c=3 outputs matched  exp= 187 recv=187   time=145
+# reset completed
+# assertion pass
+# [IMON] detected4 wdata=49 addr=2 time=165
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]4  wdata=49 addr=2 time=195
+# reset applied to dut
+# assertion pass
+# [OMON] detected4 rdata=49 at time=195
+# [SCB_info] pkt_c=4 outputs matched  exp= 49 recv=49   time=195
+# reset completed
+# assertion pass
+# [IMON] detected5 wdata=107 addr=3 time=215
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]5  wdata=107 addr=3 time=245
+# reset applied to dut
+# assertion pass
+# [OMON] detected5 rdata=107 at time=245
+# [SCB_info] pkt_c=5 outputs matched  exp= 107 recv=107   time=245
+# reset completed
+# assertion pass
+# [IMON] detected6 wdata=153 addr=10 time=265
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]6  wdata=153 addr=10 time=295
+# reset applied to dut
+# assertion pass
+# [OMON] detected6 rdata=153 at time=295
+# [SCB_info] pkt_c=6 outputs matched  exp= 153 recv=153   time=295
+# reset completed
+# assertion pass
+# [IMON] detected7 wdata=108 addr=4 time=315
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]7  wdata=108 addr=4 time=345
+# reset applied to dut
+# assertion pass
+# [OMON] detected7 rdata=108 at time=345
+# [SCB_info] pkt_c=7 outputs matched  exp= 108 recv=108   time=345
+# reset completed
+# assertion pass
+# [IMON] detected8 wdata=122 addr=5 time=365
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]8  wdata=122 addr=5 time=395
+# reset applied to dut
+# assertion pass
+# [OMON] detected8 rdata=122 at time=395
+# [SCB_info] pkt_c=8 outputs matched  exp= 122 recv=122   time=395
+# reset completed
+# assertion pass
+# [IMON] detected9 wdata=171 addr=8 time=415
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]9  wdata=171 addr=8 time=445
+# reset applied to dut
+# assertion pass
+# [OMON] detected9 rdata=171 at time=445
+# [SCB_info] pkt_c=9 outputs matched  exp= 171 recv=171   time=445
+# reset completed
+# assertion pass
+# [IMON] detected10 wdata=188 addr=12 time=465
+# [cov] coverage value=100.00
+# assertion pass
+# assertion pass
+# [DRI]10  wdata=188 addr=12 time=495
+# assertion pass
+# [OMON] detected10 rdata=188 at time=495
+# [SCB_info] pkt_c=10 outputs matched  exp= 188 recv=188   time=495
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# assertion pass
+# TEST PASS
+# [info] packet count=10 matched=10 mismatched=0
+# [cov] coverage score=100.00 
+# ** Note: implicit $finish from program    : environment.sv(81)
+#    Time: 595 ns  Iteration: 1  Instance: /top/tb
+# 1
+# Simulation stop requested.
+# COVERGROUP COVERAGE:
+# -----------------------------------------------------------------------------------------------
+# Covergroup                                             Metric       Goal    Status               
+#                                                                                               
+# -----------------------------------------------------------------------------------------------
+#  TYPE /top_sv_unit/coverage/cov                       100.00%        100    Covered              
+#     covered/total bins:                                     2          2                      
+#     missing/total bins:                                     0          2                      
+#     % Hit:                                            100.00%        100                      
+#     Coverpoint cov::x                                 100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin b                                              10          1    Covered              
+#     Coverpoint cov::y                                 100.00%        100    Covered              
+#         covered/total bins:                                 1          1                      
+#         missing/total bins:                                 0          1                      
+#         % Hit:                                        100.00%        100                      
+#         bin b1                                              5          1    Covered              
+# 
+# TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+# 
+# ASSERTION RESULTS:
+# --------------------------------------------------------------------------------------------------------------------------------
+# Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+#                                                   Count        Count    Count      Count      Count       Count  Count          
+# --------------------------------------------------------------------------------------------------------------------------------
+# /top/inst_intf/a1    interface.sv(39)                   3         47          0         10         60          0           1 off
+# /top_sv_unit/generator/run/#ublk#182313828#18/immed__19
+#                      generator.sv(19)                   0         10          0          0         10          0           0 off
+# 
